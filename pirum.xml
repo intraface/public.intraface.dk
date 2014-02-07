@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server>
+  <name>public.intraface.dk</name>
+  <summary>Intraface PEAR channel</summary>
+  <alias>intrafacepublic</alias>
+  <url>http://public.intraface.dk/</url>
+</server>

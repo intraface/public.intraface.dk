@@ -1,3 +1,80 @@
-[
-
-]
+{
+    "pear-intrafacepublic\/XML_RPC2": {
+        "versions": {
+            "0.0.1": {
+                "name": "pear-intrafacepublic\/XML_RPC2",
+                "description": "Bug fix for PEAR XML_RPC2",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/public.intraface.dk\/get\/XML_RPC2-0.0.1.tgz"
+                },
+                "version": "0.0.1",
+                "time": "2007-12-03T19:24:26+00:00",
+                "require": {
+                    "php": ">=5.1.0",
+                    "pear-pear\/XML_RPC2": ">=1.0.2"
+                },
+                "authors": [
+                    {
+                        "name": "Sune Jensen",
+                        "email": "sj@sunet.dk",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "XML\/RPC2\/Backend\/Php\/Value.php",
+                        "XML\/RPC2\/Backend\/Xmlrpcext\/Client.php"
+                    ]
+                }
+            }
+        },
+        "name": "pear-intrafacepublic\/XML_RPC2",
+        "description": "Bug fix for PEAR XML_RPC2",
+        "maintainers": [
+            {
+                "name": "Sune Jensen",
+                "email": "sj@sunet.dk",
+                "homepage": ""
+            }
+        ]
+    },
+    "pear-intrafacepublic\/antispambot": {
+        "versions": {
+            "0.1.0": {
+                "name": "pear-intrafacepublic\/antispambot",
+                "description": "Obfuscate email",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/public.intraface.dk\/get\/antispambot-0.1.0.tgz"
+                },
+                "version": "0.1.0",
+                "time": "2007-06-11T09:28:59+00:00",
+                "require": {
+                    "php": ">=4.3.0"
+                },
+                "authors": [
+                    {
+                        "name": "Lars Olesen",
+                        "email": "lars@legestue.net",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "antispambot.php"
+                    ]
+                }
+            }
+        },
+        "name": "pear-intrafacepublic\/antispambot",
+        "description": "Obfuscate email",
+        "maintainers": [
+            {
+                "name": "Lars Olesen",
+                "email": "lars@legestue.net",
+                "homepage": ""
+            }
+        ]
+    }
+}

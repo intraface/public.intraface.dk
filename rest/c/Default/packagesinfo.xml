@@ -1,4 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <f xmlns="http://pear.php.net/dtd/rest.categorypackageinfo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.categorypackageinfo     http://pear.php.net/dtd/rest.categorypackageinfo.xsd">
+    <pi>
+        <p>
+            <n>XML_RPC2</n>
+            <c>public.intraface.dk</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>LGPL License</l>
+            <s>Bug fix for PEAR XML_RPC2</s>
+            <d>This small release based on PEARs XML_RPC2 1.0.2  fixes the following bug http://pear.php.net/bugs/bug.php?id=11135</d>
+            <r xlink:href="/rest/r/xml_rpc2" />
+        </p>
 
+        <a>
+            <r>
+                <v>0.0.1</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.0.1</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.1.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.5.0";}s:7:"package";a:3:{s:4:"name";s:8:"XML_RPC2";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>antispambot</n>
+            <c>public.intraface.dk</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>GNU GENERAL PUBLIC LICENSE</l>
+            <s>Obfuscate email</s>
+            <d>A function to obfucate an email to protect against spam. Function is from Wordpress 2.2.</d>
+            <r xlink:href="/rest/r/antispambot" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.1.0</v>
+                <s>alpha</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.1.0</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.5.0";}}}</d>
+        </deps>
+
+    </pi>
 </f>

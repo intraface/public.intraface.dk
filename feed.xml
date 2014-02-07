@@ -1,12 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://public.intraface.dk</id>
-    <updated>2014-02-07T10:33:21+00:00</updated>
+    <updated>2014-02-07T13:04:17+00:00</updated>
     <title>Intraface PEAR channel Latest Releases</title>
     <link href="http://public.intraface.dk/feed.xml" rel="self" />
     <author>
         <name>http://public.intraface.dk</name>
     </author>
 
-
+    <entry>
+        <title>XML_RPC2 0.0.1 (beta)</title>
+        <link href="http://public.intraface.dk/get/XML_RPC2-0.0.1.tgz" />
+        <id>http://public.intraface.dk/get/XML_RPC2-0.0.1.tgz</id>
+        <author>
+            <name>sune.t.jensen</name>
+        </author>
+        <updated>2007-12-03T19:24:26+00:00</updated>
+        <content>
+            This small release based on PEARs XML_RPC2 1.0.2  fixes the following bug http://pear.php.net/bugs/bug.php?id=11135
+            * Inital package release
+        </content>
+    </entry>    <entry>
+        <title>antispambot 0.1.0 (alpha)</title>
+        <link href="http://public.intraface.dk/get/antispambot-0.1.0.tgz" />
+        <id>http://public.intraface.dk/get/antispambot-0.1.0.tgz</id>
+        <author>
+            <name>lsolesen</name>
+        </author>
+        <updated>2007-06-11T09:28:59+00:00</updated>
+        <content>
+            A function to obfucate an email to protect against spam. Function is from Wordpress 2.2.
+            * Initial release as PEAR package
+        </content>
+    </entry>
 </feed>

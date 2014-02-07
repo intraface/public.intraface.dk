@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://public.intraface.dk</id>
+    <updated>2014-02-07T10:33:21+00:00</updated>
+    <title>Intraface PEAR channel Latest Releases</title>
+    <link href="http://public.intraface.dk/feed.xml" rel="self" />
+    <author>
+        <name>http://public.intraface.dk</name>
+    </author>
+
+
+</feed>
